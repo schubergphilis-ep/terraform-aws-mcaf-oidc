@@ -1,120 +1,94 @@
 # Changelog
 
-All notable changes to this project will automatically be documented in this file.
+All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## v0.8.0 - 2026-06-26
+---
 
-### What's Changed
+## [0.8.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.7.0...v0.8.0) (2026-06-26)
 
-#### 🐛 Bug Fixes
 
-* fix(github): correct environment sub claim and add immutable repositories (#13) @mpsbp127
+### 🐛 Fixes
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.7.0...v0.8.0
+* correct environment sub claim and add immutable repositories ([#13](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/13)) ([66dff69](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/66dff6901125d78ba335207540f01b1cfd3d8015))
 
-## v0.7.0 - 2025-06-20
+## [0.7.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.6.0...v0.7.0) (2025-06-20)
 
-### What's Changed
 
-#### 🚀 Features
+### 🚀 Features
 
-* feature: add option to iam_roles variable to specify the max_session_duration (#12) @marwinbaumannsbp
+* add option to iam_roles variable to specify the max_session_duration ([#12](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/12)) ([8b9069b](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/8b9069b7c6c4f1b7a10800439671eab63ac64422))
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.6.0...v0.7.0
+## [0.6.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.5.2...v0.6.0) (2025-04-24)
 
-## v0.6.0 - 2025-04-24
 
-### What's Changed
+### 🚀 Features
 
-#### 🚀 Features
+* add an additional allow_all subject filter to the github oidc module ([#11](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/11)) ([8868c82](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/8868c829b0660ed426ee84b8049a54c7090729fc))
 
-* feature: add an additional allow_all subject filter to the github oidc module (#11) @marwinbaumannsbp
+## [0.5.2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.5.1...v0.5.2) (2025-04-14)
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.5.2...v0.6.0
 
-## v0.5.2 - 2025-04-14
+### 🐛 Fixes
 
-### What's Changed
+* bug: Correct optional setting for thumbprint_url ([#10](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/10)) ([ff33cd7](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/ff33cd7248adf7ee171d6f156605a76f3d0c59df))
 
-#### 🐛 Bug Fixes
+## [0.5.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.5.0...v0.5.1) (2025-04-14)
 
-* bug: Correct optional setting for thumbprint_url (#10) @ndewijer
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.5.1...v0.5.2
+### 🐛 Fixes
 
-## v0.5.1 - 2025-04-14
+* bug: Correction to audience logic condition ([#9](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/9)) ([4339916](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/4339916d65671e87978dfb44f9da5ba05a85d49c))
 
-### What's Changed
+## [0.5.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.4.1...v0.5.0) (2025-04-11)
 
-#### 🐛 Bug Fixes
 
-* bug: Correction to audience logic condition (#9) @ndewijer
+### 🐛 Fixes
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.5.0...v0.5.1
+* client_ids and thumbprint_url are only needed when the oidc provider is created ([#7](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/7)) ([568ede4](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/568ede4c53ad7a6768f27250d71176b97071192e))
+* client_ids and thumbprint_url are only needed when the oidc provider is created ([#7](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/7)) ([568ede4](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/568ede4c53ad7a6768f27250d71176b97071192e))
 
-## v0.5.0 - 2025-04-11
+## [0.4.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.4.0...v0.4.1) (2025-04-11)
 
-### What's Changed
 
-#### 🚀 Features
+### 🐛 Fixes
 
-* fix: set minimum terraform version to 1.9 (#7) @marwinbaumannsbp
+* bug: remove unused name in the oidc_provider variable ([#6](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/6)) ([fd3158b](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/fd3158b02be7147d03d551c507aa8ac0022ad8f3))
 
-#### 🐛 Bug Fixes
+## [0.4.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.3.1...v0.4.0) (2025-04-04)
 
-* fix: client_ids and thumbprint_url are only needed when the oidc provider is created (#7) @marwinbaumannsbp
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.4.1...v0.5.0
+### 🚀 Features
 
-## v0.4.1 - 2025-04-11
+* Dynamic condition sub/aud ([#5](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/5)) ([d9245e4](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/d9245e4e5a7ab09fd9855506ca8805e01b2ca313))
 
-### What's Changed
+## [0.3.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.3.0...v0.3.1) (2025-03-14)
 
-#### 🐛 Bug Fixes
 
-* bug: remove unused name in the oidc_provider variable (#6) @marwinbaumannsbp
+### 🐛 Fixes
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.4.0...v0.4.1
+* solve isse with github url malformed during certificat retrieval ([#4](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/4)) ([58bb583](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/58bb583e3529524a28725df0d0877a29203cb882))
 
-## v0.4.0 - 2025-04-04
+## [0.3.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.2.0...v0.3.0) (2025-03-11)
 
-### What's Changed
 
-#### 🚀 Features
+### 🚀 Features
 
-* feature: Dynamic condition sub/aud (#5) @ndewijer
+* add support for multiple subject_filters ([#3](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/3)) ([50e4c26](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/50e4c2630e49a4a8deb1dbe4c1b43f12faf23fe3))
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.3.1...v0.4.0
+## [0.2.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.1.0...v0.2.0) (2025-03-11)
 
-## v0.3.1 - 2025-03-14
 
-### What's Changed
+### 🚀 Features
 
-#### 🐛 Bug Fixes
+* simplify gitlab module ([#2](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/2)) ([7813a42](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/7813a42c3e6eafae93d2622166e8b806c1a493bd))
 
-* fix: solve isse with github url malformed during certificat retrieval (#4) @marwinbaumannsbp
+## 0.1.0 (2025-03-03)
 
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.3.0...v0.3.1
 
-## v0.3.0 - 2025-03-11
+### 🚀 Features
 
-### What's Changed
+* initial commit ([#1](https://github.com/schubergphilis/terraform-aws-mcaf-oidc/pull/1)) ([09c17af](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/09c17afa939dc7264eeeb9d7f0512674c59be696))
 
-#### 🚀 Features
-
-* feature: add support for multiple subject_filters (#3) @marwinbaumannsbp
-
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.2.0...v0.3.0
-
-## v0.2.0 - 2025-03-11
-
-### What's Changed
-
-#### 🚀 Features
-
-* feature: simplify gitlab module (#2) @marwinbaumannsbp
-
-**Full Changelog**: https://github.com/schubergphilis/terraform-aws-mcaf-oidc/compare/v0.1.0...v0.2.0

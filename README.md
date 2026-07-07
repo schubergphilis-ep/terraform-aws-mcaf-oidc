@@ -27,7 +27,7 @@ IMPORTANT: We do not pin modules to versions in our examples. We highly recommen
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_oidc_role"></a> [oidc\_role](#module\_oidc\_role) | schubergphilis/mcaf-role/aws | ~> 0.4.0 |
+| <a name="module_oidc_role"></a> [oidc\_role](#module\_oidc\_role) | schubergphilis-ep/mcaf-role/aws | ~> 0.4.0 |
 
 ## Resources
 

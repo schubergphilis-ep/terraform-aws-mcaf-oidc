@@ -65,7 +65,7 @@ data "aws_iam_policy_document" "assume_role_policy" {
 }
 
 module "oidc_role" {
-  source  = "schubergphilis/mcaf-role/aws"
+  source  = "schubergphilis-ep/mcaf-role/aws"
   version = "~> 0.4.0"
 
   for_each = var.iam_roles

@@ -2,6 +2,14 @@
 
 This document captures required refactoring on your part when upgrading to a module version that contains breaking changes.
 
+## Upgrading to v1.0.0
+
+### Key Changes (v1.0.0)
+
+#### Provider: `northwood-labs/corefunc` v2 is now required
+
+The `corefunc` provider version constraint changed from `~> 1.0` to `~> 2.0`. If your configuration pins `corefunc` to `~> 1.0` itself, update that constraint to `~> 2.0` and run `terraform init -upgrade`. No variable or resource changes are required.
+
 ## Upgrading to v0.8.0
 
 ### Key Changes (v0.8.0)

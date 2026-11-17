@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.8.1...v1.0.0) (2026-11-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* require corefunc provider v2 ([#4](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/issues/4))
+
+### 🚀 Features
+
+* require corefunc provider v2 ([#4](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/issues/4)) ([abbb6cf](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/commit/abbb6cf6451f27713d1dd82671a6384b22e86afc))
+
 ## [0.8.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-oidc/compare/v0.8.0...v0.8.1) (2026-07-07)
 
 
